@@ -1,0 +1,15 @@
+{
+    "name": "Go Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/go:1.20",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "go.gopath": "/go",
+          "go.goroot": "/usr/local/go"
+        },
+        "extensions": [
+          "golang.go"
+        ]
+      }
+    }
+  }
